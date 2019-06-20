@@ -20,8 +20,8 @@ let user;
     console.log("orgName : " + orgName);
 
     oracledb.getConnection({
-        user: 'admin',
-        password: 'WElcome_123#',
+        user: '<userid>',
+        password: '<password>',
         connectString: 'atplab_high'
     },function (err, connection){
         if (err) {
