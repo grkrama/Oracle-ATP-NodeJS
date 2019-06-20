@@ -1,0 +1,15 @@
+{
+  "name": "oracle-atp-nodejs",
+  "version": "1.0.0",
+  "description": "Oracle ATP Connection with NodeJS",
+  "main": "server-OrderNumGeneration.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "oracledb": "^3.1.2"
+  }
+}
