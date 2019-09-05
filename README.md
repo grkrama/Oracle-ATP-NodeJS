@@ -22,6 +22,8 @@ Connecting Oracle ATP Database with Node JS.
 * Create ATP Database
 * Download Wallet from ATP Database.
     - Wallet will have sqlnet.ora & TNS Entry, which will be used for connectivity
+    - placed those file in some location. add environmeant variable for TNS_ADMIN. 
+    - Refer "$TNS_ADMIN' in sqlnet.ora file. (if you see connection issue)
 * Download [Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client/downloads.html)
 * npm install oracledb in same folder where node code will be written.
 
